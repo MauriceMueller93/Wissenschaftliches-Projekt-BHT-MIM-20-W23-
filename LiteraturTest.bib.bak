@@ -1,0 +1,279 @@
+% Encoding: UTF-8
+
+@Booklet{Xcode,
+  year        = {2021},
+  lastchecked = {13.01.2021},
+  url         = {https://developer.apple.com/xcode/},
+}
+
+@Booklet{SwiftUI,
+  year        = {2021},
+  lastchecked = {29.01.2021},
+  url         = {https://developer.apple.com/documentation/swiftui},
+}
+
+@Article{AppDelegateApple,
+  year        = {2021},
+  lastchecked = {29.01.2021},
+  url         = {https://developer.apple.com/documentation/uikit/uiapplicationdelegate},
+}
+
+@Booklet{Swift5,
+  year        = {2021},
+  lastchecked = {14.01.2021},
+  url         = {https://www.apple.com/de/swift/},
+}
+
+@Booklet{Swift2021,
+  year        = {2021},
+  lastchecked = {14.01.2021},
+  url         = {https://www.apple.com/de/swift/},
+}
+
+@Booklet{CDStack,
+  year        = {2021},
+  lastchecked = {19.01.2021},
+  url         = {https://developer.apple.com/documentation/coredata/core_data_stack},
+}
+
+@Book{Bleske2017,
+  author    = {Christian Bleske},
+  publisher = {dpunkt.verlag},
+  title     = {i{OS}-{A}pps programmieren mit {S}wift},
+  year      = {2017},
+  isbn      = {978-3-86490-438-7},
+  number    = {2},
+}
+
+@Booklet{LifeCycle2020,
+  year        = {2021},
+  lastchecked = {18.01.2021},
+  url         = {https://developer.apple.com/documentation/corelocation},
+}
+
+@Book{Murrman2016,
+  author    = {Daniel Murrman},
+  publisher = {entwickler.press},
+  title     = {{REST} {G}rundlagen und {G}estaltungen von {R}est-{D}iensten},
+  year      = {2016},
+  isbn      = {978-3-86802-743-3},
+}
+
+@Book{Schmidt2014,
+  author    = {Maik Schmidt},
+  publisher = {dpunkt.verlag},
+  title     = {Raspberry Pi},
+  year      = {2014},
+  isbn      = {978-3-86490-134-8},
+  number    = {2},
+}
+
+@Booklet{RaspberryPi,
+  year        = {2021},
+  lastchecked = {20.01.2021},
+  url         = {https://www.raspberrypi.org/about/},
+}
+
+@Book{WebSeervices2019,
+  author    = {Venkata Swamy Martha, Maurin Lenglart},
+  editor    = {Prof. Dr. Prasant Kumar Pattnaik},
+  publisher = {Springer Singapore},
+  title     = {{W}ebservices {T}heory and {P}ractice},
+  year      = {2019},
+  isbn      = {978-981-13-3223-4},
+}
+
+@Booklet{WebServicesW3C,
+  year        = {2004},
+  lastchecked = {21.01.2021},
+  url         = {https://www.w3.org/TR/ws-arch/},
+}
+
+@Book{Kleuker2018,
+  author    = {Prof. Dr. Stephan Kleuker},
+  publisher = {Springer Fachmedien Wiesbaden},
+  title     = {{G}rundkurs {S}oftware-{E}ngineering mit {UML}},
+  year      = {2018},
+  isbn      = {978-3-658-19968-5},
+  number    = {4},
+}
+
+@Article{petersen2019absicherung,
+  author    = {Petersen, Patrick and Otten, Stefan and Thorgeirsson, Adam and Scheubner, Stefan},
+  journal   = {ATZextra},
+  title     = {Absicherung der Reichweitensch{\"a}tzung basierend auf aufgezeichneten Realdaten},
+  year      = {2019},
+  number    = {5},
+  pages     = {22--27},
+  volume    = {24},
+  publisher = {Springer},
+}
+
+@Booklet{CoreLocation,
+  year        = {2021},
+  lastchecked = {18.01.2021},
+  url         = {https://developer.apple.com/documentation/corelocation},
+}
+
+@Book{blischke2015betriebssysteme,
+  author    = {Blischke, Johannes},
+  publisher = {Bachelor+ Master Publication},
+  title     = {Betriebssysteme f{\"u}r Smartphones: Android vs. iOS},
+  year      = {2015},
+}
+
+@Book{piper2010learn,
+  author    = {Piper, Ian},
+  publisher = {Apress},
+  title     = {Learn Xcode tools for Mac OS X and iPhone development},
+  year      = {2010},
+}
+
+@Book{varma2019swiftui,
+  author    = {Varma, Jayant},
+  publisher = {Springer},
+  title     = {SwiftUI for Absolute Beginners},
+  year      = {2019},
+}
+
+
+@InCollection{goodwill2015swift,
+  author    = {Goodwill, James and Matlock, Wesley},
+  booktitle = {Beginning Swift Games Development for iOS},
+  publisher = {Springer},
+  title     = {The swift programming language},
+  year      = {2015},
+}
+
+@Book{Swift2020,
+  publisher = {Apple Inc.},
+  title     = {{T}he {S}wift {P}rogramming {L}anguage ({S}wift 5.3)},
+  year      = {2020},
+}
+
+
+@Book{doglio2015pro,
+  author    = {Doglio, Fernando},
+  publisher = {Apress},
+  title     = {Pro REST API Development with Node. js},
+  year      = {2015},
+}
+
+@Article{nurseitov2009comparison,
+  author  = {Nurseitov, Nurzhan and Paulson, Michael and Reynolds, Randall and Izurieta, Clemente},
+  journal = {Caine},
+  title   = {Comparison of JSON and XML data interchange formats: a case study.},
+  year    = {2009},
+  volume  = {9},
+}
+
+@Misc{fraley2004mobile,
+  author    = {Fraley, James and Chen, Ning},
+  month     = dec #{~16},
+  note      = {US Patent App. 10/430,197},
+  title     = {Mobile device management system},
+  year      = {2004},
+  publisher = {Google Patents},
+}
+
+
+@Article{baars2021datenbereitstellung,
+  author    = {Baars, Henning and Kemper, Hans-Georg},
+  title     = {Datenbereitstellung und-modellierung},
+  year      = {2021},
+  booktitle = {Business Intelligence \& Analytics--Grundlagen und praktische Anwendungen},
+  publisher = {Springer},
+}
+
+@Book{Sillmann2017,
+  author    = {Thomas Sillmann},
+  publisher = {HANSER Fachbuch},
+  title     = {{A}pps für i{OS} 10 professionell entwickeln},
+  year      = {2017},
+  isbn      = {978-3-446-45073-8},
+}
+
+@Article{DelegatePattern,
+  year        = {2021},
+  lastchecked = {01.02.2021},
+  url         = {https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_delegates_to_customize_object_behavior},
+}
+
+@Article{cordts2011grundlagen,
+  author    = {Cordts, S{\"o}nke and Blakowski, Gerold and Brosius, Gerhard},
+  title     = {{G}rundlagen des objektrelationalen Mappings},
+  year      = {2011},
+  booktitle = {Datenbanken f{\"u}r Wirtschaftsinformatiker},
+  publisher = {Springer},
+}
+
+@Article{NSManagedObject,
+  year        = {2021},
+  lastchecked = {30.01.2021},
+  url         = {https://developer.apple.com/documentation/coredata/nsmanagedobjectmodel},
+}
+
+@Article{smith2015beginning,
+  author    = {Smith, Ben},
+  title     = {Beginning JSON},
+  year      = {2015},
+  publisher = {Apress},
+}
+
+@Book{JanTittel2013,
+  author    = {Jan Tittel, Jochen Baumann},
+  publisher = {Hanser},
+  title     = {{A}pps für i{OS} entwickeln},
+  year      = {2013},
+  isbn      = {9783446431928},
+}
+
+@Article{MapView,
+  year        = {2021},
+  lastchecked = {18.01.2021},
+  url         = {https://developer.apple.com/documentation/mapkit/mkmapview},
+}
+
+@Article{MKMapKit,
+  year        = {2021},
+  lastchecked = {18.01.2021},
+  url         = {https://developer.apple.com/documentation/mapkit},
+}
+
+@Article{UIKit,
+  year        = {2021},
+  lastchecked = {18.01.2021},
+  url         = {https://developer.apple.com/documentation/uikit/about_app_development_with_uikit},
+}
+
+@Article{MKDelegate,
+  year        = {2021},
+  lastchecked = {18.01.2021},
+  url         = {https://developer.apple.com/documentation/mapkit/mkmapviewdelegate},
+}
+
+@Article{MKRoute,
+  year        = {2021},
+  lastchecked = {20.01.2021},
+  url         = {https://developer.apple.com/documentation/mapkit/mkroute},
+}
+
+@Article{MKAnnotation,
+  year        = {2021},
+  lastchecked = {20.01.2021},
+  url         = {https://developer.apple.com/documentation/mapkit/mkannotations},
+}
+
+@Book{Wang2019,
+  author    = {Wang, Wallace},
+  publisher = {Apress},
+  title     = {{B}eginning i{P}hone {D}evelopment with {S}wift 5},
+  year      = {2019},
+  isbn      = {9781484248645},
+  date      = {2019-06-01},
+  ean       = {9781484248645},
+  pagetotal = {664},
+  url       = {https://www.ebook.de/de/product/35687756/wallace_wang_beginning_iphone_development_with_swift_5.html},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

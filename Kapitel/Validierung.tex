@@ -1,0 +1,71 @@
+\chapter{Evaluation} 
+Lorem ipsum dolor sit amet, consetetur sadipscing
+elitr, sed diam nonumy eirmod tempor invidunt ut labore
+et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor 
+sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd 
+gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+\section{Ergebnis der Anforderungsanalyse}
+
+
+Nutzer können sich über die Anwendung anmelden und registrieren. Eine Registrierung ist ausschließlich möglich, wenn der Benutzer von einer Organisation eingeladen wurde. Der Authentifizierungsprozess verläuft in beiden Komponenten weitgehend identisch. Der Benutzer führt die Authentifizierung über einen zentralen OpenID-Provider im EKS-Cluster durch \textbf{(FA\#01)}.
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. \textbf{(FA\#02)}.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. \textbf{(FA\#03)}.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. \textbf{(FA\#04)}.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. \textbf{(FA\#05)}.
+
+
+Das System startet in der Pilotphase mit vergleichsweise wenigen Nutzern, erfordert jedoch dennoch eine stabile und zuverlässige Verbindung. Die Anzahl der Nutzer kann durch den Abschluss neuer Verträge schnell stark ansteigen, weshalb eine flexible Skalierung der Anwendung durch den Einsatz von EKS gewährleistet wird \textbf{(NFA\#01)}.
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua \textbf{(NFA\#02)}.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet \textbf{(NFA\#03)}.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua \textbf{(NFA\#04)}.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet \textbf{(NFA\#05)}.
+
+
+\section{Test Einsatz der Software}
+
+Beim ersten Testlauf der Software wurde ein Rettungsdiensteinsatz in einer realen Umgebung simuliert. Dabei wurde ein Szenario gewählt, das einen häufig auftretenden Vorfall darstellen sollte. In diesem Szenario gab es einen 45-jährigen männlichen Patienten mit allergischem Schock und einen Sturz einer 85-jährigen Frau. Das Ziel des Testlaufs bestand darin, die Einsätze mit begrenzten Notarztressourcen möglichst schnell abzuarbeiten und dabei alle Standards im Rettungsdienst einzuhalten. Die Einsätze wurden zweimal simuliert: einmal unter Verwendung der TNA-Software und einmal auf dem herkömmlichen Versorgungsweg.
+\\\\
+\textbf{Ablauf des Einsatzverlaufs nach dem klassischen Modell:}
+\\\\
+\textbf{Alarmierung I:}
+Um 8:00 Uhr ging in der örtlichen Leitstelle ein Alarm für einen männlichen Patienten mit allergischem Schock ein. Die Rettungsfahrzeuge RTW \& NEF rückten um 8:04 Uhr aus. Die Besatzung bestand aus 2 Notfallsanitätern, einem Rettungssanitäter (Fahrer) und einem Notarzt, die auf dem Weg zum Einsatzort waren.
+\\\\
+\textbf{Eintreffen am Einsatzort:}
+Der RTW traf als Erstes um 8:10 Uhr am Einsatzort ein, das NEF befand sich weiterhin auf der Anfahrt. Die Notfallsanitäter diagnostizierten den Schock und bereiteten die Verabreichung eines Medikaments vor. Die Freigabe zur Verabreichung von Medikamenten darf nur durch einen Arzt erfolgen.
+Der Notarzt traf um 08:15 Uhr am Einsatzort ein und bestätigte die Freigabe zur Medikamentenverabreichung.
+\\\\
+\textbf{Alarmierung II:}
+Es ging eine Alarmierung für eine gestürzte 85-jährige Patientin ein. Ein RTW mit einer anderen Besatzung, bestehend aus 2 Notfallsanitätern, rückte zum Einsatzort aus.
+\\\\
+\textbf{Eintreffen am Einsatzort:}
+Die Besatzung traf um 8:20 Uhr am Einsatzort ein und stellte eine schwerwiegende Verletzung fest. Sie benötigten dringend die fachliche Unterstützung eines Notarztes.
+Der Notarzt war derzeit bei einem anderen Einsatz gebunden und beendete diesen so schnell wie möglich. Anschließend begab er sich zur nächsten Einsatzstelle und traf um 8:27 Uhr bei der Patientin ein. Der Arzt diagnostizierte die Verletzung, und die Patientin wurde in die nächstgelegene Klinik transportiert.
+\\\\
+Beide Einsätze konnten innerhalb von 30 Minuten abgeschlossen werden.
+\\\\
+\textbf{Ablauf des Einsatzverlaufs unter Verwendung der TNA-Software:}
+\\\\
+\textbf{Alarmierung I:}
+Um 8:00 Uhr ging in der örtlichen Leitstelle ein Alarm für einen männlichen Patienten mit allergischem Schock ein. Die Rettungsfahrzeuge RTW \& NEF rückten um 8:04 Uhr aus. Die Besatzung bestand aus 2 Notfallsanitätern und einem Rettungssanitäter (Fahrer). Der Notarzt war nicht physisch im Fahrzeug anwesend, sondern wurde in den Einsatz über die TNA-Software aus der Ferne alarmiert.
+\\\\
+\textbf{Eintreffen am Einsatzort:}
+Der RTW traf um 8:10 Uhr als Erstes am Einsatzort ein. Die Notfallsanitäter diagnostizierten den Schock und bereiteten die Verabreichung eines Medikaments vor. Die Freigabe zur Verabreichung von Medikamenten erfolgte sofort durch den Notarzt, der dies über die TNA-Software koordinierte, überwachte und rechtssicher dokumentierte.
+\\\\
+\textbf{Alarmierung II:}
+Es ging eine Alarmierung für eine gestürzte 85-jährige Patientin ein. Ein RTW mit einer anderen Besatzung, bestehend aus 2 Notfallsanitätern, rückte zum Einsatzort aus.
+\\\\
+\textbf{Eintreffen am Einsatzort:}
+Die Besatzung traf um 8:20 Uhr am Einsatzort ein und stellte eine schwerwiegende Verletzung fest. Sie benötigten dringend die fachliche Unterstützung eines Notarztes. Die Besatzung forderte ein Telekonsil über die TNA-Software an. Der Notarzt öffnete um 8:23 Uhr eine Videoverbindung, um die Patientin zu begutachten. Anschließend wurden Maßnahmen vor Ort durch das Team eingeleitet, die vom Notarzt delegiert wurden.
+\\\\
+Beide Einsätze wurden innerhalb von 30 Minuten abgeschlossen. Der Arbeitsaufwand für den Notarzt betrug dabei jedoch weniger als 5 Minuten.
+\\\\
+In Bezug auf die Behandlungsqualität konnten keine Unterschiede festgestellt werden. Die Freigabe des Medikaments konnte problemlos aus der Ferne erfolgen. Im zweiten Fall, bei der Diagnose der Verletzung über die Kamera, war der Video-Livestream ausreichend klar, um schnell eine Entscheidung zu treffen.
+
+Das durchgespielte Szenario wurde anschließend mehrfach wiederholt, wobei der Standort des Arztes angepasst wurde. Der Arzt wurde sowohl in der Leitstelle als auch in der Klinik positioniert, um zu prüfen, ob er neben seiner Telenotarzttätigkeit zusätzlichen Aufgaben in der Klinik nachgehen kann. Es konnte jedoch keine signifikante Verbesserung festgestellt werden. Wenn der Notarzt in der Klinik an Patienten gebunden ist, leidet die Qualität der präklinischen Notfallversorgung.

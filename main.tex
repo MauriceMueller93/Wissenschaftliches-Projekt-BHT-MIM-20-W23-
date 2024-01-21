@@ -1,0 +1,143 @@
+% =========== Dokumentgrundeinstellungen =================
+\documentclass[a4paper,12pt]{scrreprt}
+\usepackage[left= 3.0cm,right= 2.5cm,bottom= 4cm]{geometry}
+
+% PDF informationen
+\usepackage[pdftitle={Optimierung der Präklinischen Patientenbehandlung
+durch Entwicklung einer Software zur Anleitung und
+Beratung für Notfallsanitäter durch einen entfernten
+Notarzt}, pdfsubject={}, pdfauthor={Maurice Müller}]{hyperref}
+
+% Standart Packages
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{graphicx, subfigure}
+\graphicspath{{pics/}}
+\usepackage{fancyhdr}
+\usepackage{lmodern}
+\usepackage{color}
+\usepackage{transparent} 
+\usepackage[printonlyused]{acronym}
+\usepackage{url}
+\usepackage{multibib}
+\usepackage{tabularx}
+\usepackage{booktabs} % Für schönere Tabellen
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{helvet}
+
+\usepackage{setspace}
+% nicht einrücken nach Absatz
+\setlength{\parindent}{0pt}
+\setstretch{1.25}
+% =========== Kopf- und Fußzeile =================
+\pagestyle{fancy}
+
+\lhead{\slshape \nouppercase {\leftmark} }
+\chead{}
+\rhead{}
+
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.6pt}
+
+
+
+% ============== Farben ================
+\definecolor{BeuthMainColor}{rgb}{0,0.593,0.629}
+
+\hypersetup{colorlinks = true}
+\hypersetup{linkcolor = black}
+\hypersetup{citecolor = black}
+\hypersetup{filecolor = black}
+\hypersetup{pagecolor = black}
+\hypersetup{urlcolor = black}
+% =========== Dokumentbeginn =================
+\begin{document}
+% Titelblatt   
+\pagestyle{empty}
+\include{Titel}
+
+% part im Inhaltsverzeichnis nicht nummerieren
+
+
+\pagestyle{fancy}
+% Seitennummerierung neu beginnen, Zahlen[arabic],röm.Zahlen
+\pagenumbering{roman}
+
+
+\clearpage
+
+%Erklärung
+\newpage
+\include{Erklärung}
+
+
+%Danksagungen
+\newpage
+\include{Danksagung}
+
+%Zusammenfassung
+\newpage
+\include{Zusammenfassung}
+
+%Inhaltsverzeichnis
+\newpage
+\pagestyle{fancy}
+\tableofcontents
+
+
+% =========== Abkürzungsverzeichnis =================
+\newpage
+\pagestyle{empty}
+
+\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}
+\include{Abkürzungsverzeichnis}
+
+
+\include{Glossar}
+
+\pagestyle{fancy}
+
+%Hauptteil
+
+\newpage
+\pagenumbering{arabic}
+\include{Kapitel/Einleitung}
+\newpage
+\include{Kapitel/Technische_Grundlagen}
+\newpage
+\include{Kapitel/Anforderungen}
+\newpage
+\include{Kapitel/Entwurf}
+\newpage
+\include{Kapitel/Implementierung}
+\newpage
+\include{Kapitel/Validierung}
+\newpage
+\include{Kapitel/Fazit}
+
+
+% =========== Literaturverzeichnis =================
+\newpage
+\pagenumbering{Roman}
+% =========== Abbildungsverzeichnis =================
+\newpage
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+
+\newpage
+\bibliographystyle{alphadin}
+\addcontentsline{toc}{chapter}{Literatur- und Quellenverzeichnis}
+% \bibliographystyle{unsrt}
+\bibliography{LiteraturTest}
+
+\include{Anlagen}
+
+\end{document}
+
